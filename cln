@@ -19,17 +19,20 @@ dns:
   ipv6: false
   use-host: true
   enhanced-mode: fake-ip
-  listen: 127.0.0.1:7874
+  listen: 0.0.0.0:7874
   nameserver:
-    - 1.1.1.1
     - 8.8.8.8
-  fallback:
     - 1.0.0.1
-    - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
-  default-nameserver:
+  fallback:
     - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
     - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - "*.lan"
@@ -130,12 +133,13 @@ proxies:
     port: 2087
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WoRkErs.DEv
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRkErs.DEv
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WoRkErs.DEv
     udp: true
@@ -144,12 +148,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WOrkeRS.dEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WOrkeRS.dEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WOrkeRS.dEV
     udp: true
@@ -158,12 +163,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.wORkErS.DeV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORkErS.DeV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.wORkErS.DeV
     udp: true
@@ -172,12 +178,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WoRKeRs.deV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKeRs.deV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WoRKeRs.deV
     udp: true
@@ -186,12 +193,13 @@ proxies:
     port: 2083
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WorkErs.DEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorkErs.DEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WorkErs.DEV
     udp: true
@@ -200,12 +208,13 @@ proxies:
     port: 2096
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WoRKerS.DEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKerS.DEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WoRKerS.DEV
     udp: true
@@ -214,12 +223,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WORkErs.dev
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WORkErs.dev
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WORkErs.dev
     udp: true
@@ -228,12 +238,13 @@ proxies:
     port: 2096
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.wOrkErs.dev
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkErs.dev
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.wOrkErs.dev
     udp: true
@@ -242,12 +253,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WoRKers.dEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKers.dEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WoRKers.dEV
     udp: true
@@ -256,12 +268,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.workeRS.DEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.workeRS.DEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.workeRS.DEV
     udp: true
@@ -270,12 +283,13 @@ proxies:
     port: 2096
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.wOrKErS.dEv
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrKErS.dEv
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.wOrKErS.dEv
     udp: true
@@ -284,12 +298,13 @@ proxies:
     port: 2096
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WOrkers.deV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WOrkers.deV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WOrkers.deV
     udp: true
@@ -298,12 +313,13 @@ proxies:
     port: 8443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WORkErS.dEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WORkErS.dEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WORkErS.dEV
     udp: true
@@ -316,6 +332,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.woRKERs.dev
     network: ws
     ws-opts:
       path: /frankfurt03.zgjok.com:443/
@@ -327,12 +344,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WOrkeRS.dEv
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WOrkeRS.dEv
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WOrkeRS.dEv
     udp: true
@@ -345,6 +363,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkERs.DEV
     network: ws
     ws-opts:
       path: /beyonddsz.cfd:443/linkws
@@ -356,12 +375,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.wORKeRS.DEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORKeRS.DEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.wORKeRS.DEV
     udp: true
@@ -370,12 +390,13 @@ proxies:
     port: 2083
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WoRKERs.deV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKERs.deV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WoRKERs.deV
     udp: true
@@ -384,12 +405,13 @@ proxies:
     port: 8443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.wOrKERS.dev
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrKERS.dev
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.wOrKERS.dev
     udp: true
@@ -398,12 +420,13 @@ proxies:
     port: 443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WorKERs.Dev
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorKERs.Dev
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WorKERs.Dev
     udp: true
@@ -412,12 +435,13 @@ proxies:
     port: 2096
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.WorkErS.DEV
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorkErS.DEV
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.WorkErS.DEV
     udp: true
@@ -426,12 +450,13 @@ proxies:
     port: 2083
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
     tls: true
-    servername: 82d2e55f-green.sa4566fo.wOrkeRs.dEv
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkeRs.dEv
     network: ws
     ws-opts:
-      path: vless-ws%2F%3Fed%3D2048
+      path: vless-ws/?ed=2048
       headers:
         Host: 82d2e55f-green.sa4566fo.wOrkeRs.dEv
     udp: true
@@ -444,6 +469,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
+    servername: kim.gov.kp
     network: ws
     ws-opts:
       path: /aries?ed=2048
@@ -459,6 +485,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkErS.deV
     network: ws
     ws-opts:
       path: /irvideo.cfd:443/linkws
@@ -474,6 +501,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
+    servername: rn2.hostmjj.com
     network: ws
     ws-opts:
       path: /
@@ -489,6 +517,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /de1.v4vmess.xyz/vmess-ws
@@ -504,6 +533,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
+    servername: de1-vmess.greenssh.org
     network: ws
     ws-opts:
       path: /de1-vmess.greenssh.org/vmess
@@ -519,6 +549,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /de1.v4vmess.xyz/vmess-ws
@@ -530,27 +561,28 @@ proxies:
     port: 443
     type: vless
     uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
+    cipher: auto
     tls: true
-    servername: creativecommons.org
     skip-cert-verify: true
+    servername: creativecommons.org
     network: ws
     ws-opts:
-      path: "%2Fanything%2Ffreevpn.us-gham%2Fvless"
+      path: /anything/freevpn.us-gham/vless
       headers:
-        Host: creativecommons.org
+        Host: v2-de-1.v2s.top
     udp: true
   - name: freevpn.us-gham (v2-de-1.v2s.top) 2
     server: v2-de-1.v2s.top
     port: 443
     type: trojan
     password: 7772bb24-976a-45ca-aa76-f4f1b7f50923
-    sni: creativecommons.org
     skip-cert-verify: true
+    sni: creativecommons.org
     network: ws
     ws-opts:
       path: /anything/freevpn.us-gham/trojan
       headers:
-        Host: creativecommons.org
+        Host: v2-de-1.v2s.top
     udp: true
   - name: vmess-ws-tls
     server: oths.wikimi88549712.workers.dev
@@ -561,6 +593,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /nl2-full.privateip.net/RACEVPN
@@ -576,6 +609,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: creativecommons.org
     network: ws
     ws-opts:
       path: /anything/freevpn.us-gham/vmess
@@ -591,6 +625,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /v2-de-1.v2s.top/anything/freevpn.us-gham/vmess
@@ -606,6 +641,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /de1-vmess.greenssh.org/vmess
@@ -621,6 +657,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /de1.vmessvh.site/vmess
@@ -636,6 +673,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /ca1.v4vmess.xyz/vmess-ws
@@ -658,6 +696,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
+    servername: us-21.hihu.net
     network: ws
     ws-opts:
       path: /mgrbq1ps
@@ -673,11 +712,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: ""
     network: ws
     ws-opts:
       path: /mgrbq1ps
       headers:
-        Host: us-21.hihu.net
+        Host: ""
     udp: true
   - name: Vmess USA LA 2024-12-10
     server: us-21.hihu.net
@@ -688,11 +728,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
+    servername: ""
     network: ws
     ws-opts:
       path: /mgrbq1ps
       headers:
-        Host: us-21.hihu.net
+        Host: ""
     udp: true
   - name: United States (US) » GTHost » @Geek_Spot
     server: 69.50.95.174
@@ -710,6 +751,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
+    servername: oths.wikimi88549712.workers.dev
     network: ws
     ws-opts:
       path: /de-freevmess.privateip.net/FREEVMESS
@@ -721,12 +763,13 @@ proxies:
     port: 80
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: false
-    servername: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    servername: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
-      path: "%2FuoV6zSgMPAa2jhKo%3Fed%3D2560"
+      path: /uoV6zSgMPAa2jhKo?ed=2560
       headers:
         Host: blue.sa4566fo.workers.dev
     udp: true
@@ -735,8 +778,8 @@ proxies:
     port: 80
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    sni: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
       path: /tr0d1wPg4h8d52oZ0S?ed=2560
@@ -748,26 +791,28 @@ proxies:
     port: 443
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: true
-    servername: blUE.sa4566fo.woRkERs.DEv
     skip-cert-verify: true
+    servername: blUE.sa4566fo.woRkERs.DEv
     network: ws
     ws-opts:
-      path: "%2Frf7r6zvXsXPSoZVO%3Fed%3D2560"
+      path: /rf7r6zvXsXPSoZVO?ed=2560
       headers:
-        Host: blUE.sa4566fo.woRkERs.DEv
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "8 - VLESS - Domain : 80"
     server: www.speedtest.net
     port: 80
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: false
-    servername: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    servername: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
-      path: "%2F0d1wPg4h8d52oZ0S%3Fed%3D2560"
+      path: /0d1wPg4h8d52oZ0S?ed=2560
       headers:
         Host: blue.sa4566fo.workers.dev
     udp: true
@@ -776,66 +821,69 @@ proxies:
     port: 443
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: true
-    servername: BlUE.Sa4566FO.wOrKERs.dEv
     skip-cert-verify: true
+    servername: BlUE.Sa4566FO.wOrKERs.dEv
     network: ws
     ws-opts:
-      path: "%2F3RNavzULhqSs0jlV%3Fed%3D2560"
+      path: /3RNavzULhqSs0jlV?ed=2560
       headers:
-        Host: BlUE.Sa4566FO.wOrKERs.dEv
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "4 - VLESS - IPv4 : 443"
     server: 104.21.52.199
     port: 443
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: true
-    servername: bLUe.sA4566fO.WORKErS.Dev
     skip-cert-verify: true
+    servername: bLUe.sA4566fO.WORKErS.Dev
     network: ws
     ws-opts:
-      path: "%2FaPyIQlP9JtpngXf3%3Fed%3D2560"
+      path: /aPyIQlP9JtpngXf3?ed=2560
       headers:
-        Host: bLUe.sA4566fO.WORKErS.Dev
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "4 - Trojan - IPv4 : 443"
     server: 104.21.52.199
     port: 443
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: bLUe.sA4566fO.WORKErS.Dev
     skip-cert-verify: true
+    sni: bLUe.sA4566fO.WORKErS.Dev
     network: ws
     ws-opts:
       path: /traPyIQlP9JtpngXf3?ed=2560
       headers:
-        Host: bLUe.sA4566fO.WORKErS.Dev
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "2 - Trojan - Domain : 443"
     server: www.speedtest.net
     port: 443
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: blUE.sa4566fo.woRkERs.DEv
     skip-cert-verify: true
+    sni: blUE.sa4566fo.woRkERs.DEv
     network: ws
     ws-opts:
       path: /trrf7r6zvXsXPSoZVO?ed=2560
       headers:
-        Host: blUE.sa4566fo.woRkERs.DEv
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "7 - VLESS - Domain : 80"
     server: blue.sa4566fo.workers.dev
     port: 80
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: false
-    servername: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    servername: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
-      path: "%2FP0uGj79X7BqqBIWA%3Fed%3D2560"
+      path: /P0uGj79X7BqqBIWA?ed=2560
       headers:
         Host: blue.sa4566fo.workers.dev
     udp: true
@@ -844,21 +892,21 @@ proxies:
     port: 443
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: BLue.Sa4566fo.WORKerS.dEV
     skip-cert-verify: true
+    sni: BLue.Sa4566fo.WORKerS.dEV
     network: ws
     ws-opts:
       path: /trTlUY8g20lNCsRMgc?ed=2560
       headers:
-        Host: BLue.Sa4566fo.WORKerS.dEV
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "7 - Trojan - Domain : 80"
     server: blue.sa4566fo.workers.dev
     port: 80
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    sni: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
       path: /trP0uGj79X7BqqBIWA?ed=2560
@@ -870,8 +918,8 @@ proxies:
     port: 80
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    sni: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
       path: /trCjn3odtRApupO8ql?ed=2560
@@ -883,22 +931,23 @@ proxies:
     port: 443
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: true
-    servername: BLue.Sa4566fo.WORKerS.dEV
     skip-cert-verify: true
+    servername: BLue.Sa4566fo.WORKerS.dEV
     network: ws
     ws-opts:
-      path: "%2FTlUY8g20lNCsRMgc%3Fed%3D2560"
+      path: /TlUY8g20lNCsRMgc?ed=2560
       headers:
-        Host: BLue.Sa4566fo.WORKerS.dEV
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "9 - Trojan - IPv4 : 80"
     server: 172.67.203.94
     port: 80
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    sni: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
       path: /truoV6zSgMPAa2jhKo?ed=2560
@@ -910,12 +959,13 @@ proxies:
     port: 80
     type: vless
     uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
     tls: false
-    servername: blue.sa4566fo.workers.dev
     skip-cert-verify: true
+    servername: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
-      path: "%2FCjn3odtRApupO8ql%3Fed%3D2560"
+      path: /Cjn3odtRApupO8ql?ed=2560
       headers:
         Host: blue.sa4566fo.workers.dev
     udp: true
@@ -924,13 +974,13 @@ proxies:
     port: 443
     type: trojan
     password: VU%3FEr2%25l%40mR%5EGejp
-    sni: BlUE.Sa4566FO.wOrKERs.dEv
     skip-cert-verify: true
+    sni: BlUE.Sa4566FO.wOrKERs.dEv
     network: ws
     ws-opts:
       path: /tr3RNavzULhqSs0jlV?ed=2560
       headers:
-        Host: BlUE.Sa4566FO.wOrKERs.dEv
+        Host: blue.sa4566fo.workers.dev
     udp: true
 proxy-groups:
   - type: 'url-test'
