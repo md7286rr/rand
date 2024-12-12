@@ -218,58 +218,6 @@ proxies:
       headers:
         Host: blue.sa4566fo.workers.dev
     udp: true
-  - name: "4 - Trojan - IPv4 : 443"
-    server: 172.67.203.94
-    port: 443
-    type: trojan
-    password: VU%3FEr2%25l%40mR%5EGejp
-    skip-cert-verify: true
-    sni: blUe.sA4566fO.WOrKerS.deV
-    network: ws
-    ws-opts:
-      path: /tr0hqPemlD3X2PHWKh?ed=2560
-      headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
-  - name: "3 - Trojan - IPv4 : 443"
-    server: 104.21.52.199
-    port: 443
-    type: trojan
-    password: VU%3FEr2%25l%40mR%5EGejp
-    skip-cert-verify: true
-    sni: blUE.sA4566fO.WorKErS.dEv
-    network: ws
-    ws-opts:
-      path: /trzyYcgY9bDbZebFPD?ed=2560
-      headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
-  - name: "5 - Trojan - Clean IP : 443"
-    server: zula.ir
-    port: 443
-    type: trojan
-    password: VU%3FEr2%25l%40mR%5EGejp
-    skip-cert-verify: true
-    sni: BlUE.Sa4566fO.WORkErS.DEv
-    network: ws
-    ws-opts:
-      path: /trJZ7FrWoitenwzCnB?ed=2560
-      headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
-  - name: "4 - Trojan - IPv4 : 443 2"
-    server: 104.21.52.199
-    port: 443
-    type: trojan
-    password: VU%3FEr2%25l%40mR%5EGejp
-    skip-cert-verify: true
-    sni: bLue.sa4566Fo.wORkeRs.Dev
-    network: ws
-    ws-opts:
-      path: /trm0EoHRLKAwekvLwE?ed=2560
-      headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
   - name: 3-vless-worker-oths.sa4566fo.workers.dev
     server: oths.sa4566fo.workers.dev
     port: 2096
@@ -420,84 +368,6 @@ proxies:
       headers:
         Host: 82d2e55f-green.sa4566fo.wOrkERS.Dev
     udp: true
-  - name: "9 - Trojan - Clean IP : 443"
-    server: oths.wikimi88549712.workers.dev
-    port: 443
-    type: trojan
-    password: "%23%7D3Hd8QR%2AR80A%27C5"
-    skip-cert-verify: true
-    sni: A7e1F08B-red.wikIMi88549712.WorKerS.DEv
-    network: ws
-    ws-opts:
-      path: /trHQgmul4cxKG5bLo0?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
-  - name: "13 - Trojan - IPv4 : 2083"
-    server: 188.114.96.3
-    port: 2083
-    type: trojan
-    password: "%23%7D3Hd8QR%2AR80A%27C5"
-    skip-cert-verify: true
-    sni: a7e1F08B-REd.wIkIMI88549712.wORKeRs.dEV
-    network: ws
-    ws-opts:
-      path: /trtPulfsNbFxSUfEqp?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
-  - name: "3 - Trojan - IPv4 : 443 2"
-    server: 188.114.97.3
-    port: 443
-    type: trojan
-    password: "%23%7D3Hd8QR%2AR80A%27C5"
-    skip-cert-verify: true
-    sni: A7e1F08B-rED.wikimI88549712.WoRKErS.dEv
-    network: ws
-    ws-opts:
-      path: /trRF2Dket63NToKH1F?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
-  - name: "4 - Trojan - IPv4 : 443 3"
-    server: 188.114.96.3
-    port: 443
-    type: trojan
-    password: "%23%7D3Hd8QR%2AR80A%27C5"
-    skip-cert-verify: true
-    sni: a7e1f08B-rEd.WIkIMi88549712.wOrkerS.dev
-    network: ws
-    ws-opts:
-      path: /trt2NdOdKe0w67clLq?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
-  - name: "7 - Trojan - Clean IP : 443"
-    server: zula.ir
-    port: 443
-    type: trojan
-    password: "%23%7D3Hd8QR%2AR80A%27C5"
-    skip-cert-verify: true
-    sni: A7E1f08B-RED.WIkImi88549712.woRKErS.DEv
-    network: ws
-    ws-opts:
-      path: /trxr9hh94vtLHCg6GN?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
-  - name: "36 - Trojan - Clean IP : 2082"
-    server: oths.wikimi88549712.workers.dev
-    port: 2082
-    type: trojan
-    password: "%23%7D3Hd8QR%2AR80A%27C5"
-    skip-cert-verify: true
-    sni: a7e1f08b-red.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: /tr0SEEr3O9Re0sGahL?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
   - name: "10 - VLESS - Domain : 2083"
     server: a7e1f08b-red.wikimi88549712.workers.dev
     port: 2083
@@ -525,19 +395,6 @@ proxies:
     network: ws
     ws-opts:
       path: /RF2Dket63NToKH1F?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
-  - name: "30 - Trojan - IPv4 : 2082"
-    server: 188.114.97.3
-    port: 2082
-    type: trojan
-    password: "%23%7D3Hd8QR%2AR80A%27C5"
-    skip-cert-verify: true
-    sni: a7e1f08b-red.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: /trZIANP1P3lL6hgUE7?ed=2560
       headers:
         Host: a7e1f08b-red.wikimi88549712.workers.dev
     udp: true
@@ -846,10 +703,6 @@ proxy-groups:
       - "1 - VLESS - Domain : 443"
       - "5 - VLESS - Clean IP : 443"
       - "13 - VLESS - Clean IP : 80"
-      - "4 - Trojan - IPv4 : 443"
-      - "3 - Trojan - IPv4 : 443"
-      - "5 - Trojan - Clean IP : 443"
-      - "4 - Trojan - IPv4 : 443 2"
       - 3-vless-worker-oths.sa4566fo.workers.dev
       - 12-vless-worker-oths.wikimi88549712.workers.dev
       - 16-vless-worker-oths.wikimi88549712.workers.dev
@@ -860,15 +713,8 @@ proxy-groups:
       - 9-vless-worker-oths.wikimi88549712.workers.dev
       - 20-vless-worker-oths.sa4566fo.workers.dev
       - 14-vless-worker-oths.wikimi88549712.workers.dev
-      - "9 - Trojan - Clean IP : 443"
-      - "13 - Trojan - IPv4 : 2083"
-      - "3 - Trojan - IPv4 : 443 2"
-      - "4 - Trojan - IPv4 : 443 3"
-      - "7 - Trojan - Clean IP : 443"
-      - "36 - Trojan - Clean IP : 2082"
       - "10 - VLESS - Domain : 2083"
       - "3 - VLESS - IPv4 : 443"
-      - "30 - Trojan - IPv4 : 2082"
       - "17 - VLESS - Clean IP : 2083"
       - 4-vless-worker-zula.ir
       - 1-vless-worker-oths.sa4566fo.workers.dev
