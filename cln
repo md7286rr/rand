@@ -128,20 +128,20 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: "14 - VLESS - Clean IP : 80"
-    server: oths.wikimi88549712.workers.dev
-    port: 80
+  - name: 3-vless-worker-oths.sa4566fo.workers.dev
+    server: oths.sa4566fo.workers.dev
+    port: 2096
     type: vless
-    uuid: d436d679-70b5-481a-8137-5401d3811283
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: blue.sa4566fo.workers.dev
+    servername: 82d2e55f-green.sa4566fo.WOrKeRs.dev
     network: ws
     ws-opts:
-      path: /YGvjTnvpiC5q5xrg?ed=2560
+      path: vless-ws/?ed=2048
       headers:
-        Host: blue.sa4566fo.workers.dev
+        Host: 82d2e55f-green.sa4566fo.WOrKeRs.dev
     udp: true
   - name: "11 - VLESS - IPv4 : 80"
     server: 172.67.203.94
@@ -158,95 +158,20 @@ proxies:
       headers:
         Host: blue.sa4566fo.workers.dev
     udp: true
-  - name: "8 - VLESS - Domain : 80"
-    server: blue.sa4566fo.workers.dev
-    port: 80
+  - name: "10 - VLESS - Domain : 2083"
+    server: a7e1f08b-red.wikimi88549712.workers.dev
+    port: 2083
     type: vless
-    uuid: d436d679-70b5-481a-8137-5401d3811283
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: blue.sa4566fo.workers.dev
-    network: ws
-    ws-opts:
-      path: /QhsOUhWW9T74XnOi?ed=2560
-      headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
-  - name: "1 - VLESS - Domain : 443"
-    server: blue.sa4566fo.workers.dev
-    port: 443
-    type: vless
-    uuid: d436d679-70b5-481a-8137-5401d3811283
+    uuid: 81a2bf84-337b-4c75-8e9b-150c46fc24a3
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bLUE.sA4566fo.WOrkeRs.DEv
+    servername: A7E1F08B-reD.wIKimi88549712.wOrKErs.dEv
     network: ws
     ws-opts:
-      path: /T74XlzGbkqqm8Qu4?ed=2560
+      path: /CD8FtXxNExeTAFg8?ed=2560
       headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
-  - name: "5 - VLESS - Clean IP : 443"
-    server: zula.ir
-    port: 443
-    type: vless
-    uuid: d436d679-70b5-481a-8137-5401d3811283
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: BlUE.SA4566fo.wOrKers.dEv
-    network: ws
-    ws-opts:
-      path: /nLnlAz8BYHf84FD8?ed=2560
-      headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
-  - name: "13 - VLESS - Clean IP : 80"
-    server: oths.sa4566fo.workers.dev
-    port: 80
-    type: vless
-    uuid: d436d679-70b5-481a-8137-5401d3811283
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: blue.sa4566fo.workers.dev
-    network: ws
-    ws-opts:
-      path: /QxggBiInIFttCmoo?ed=2560
-      headers:
-        Host: blue.sa4566fo.workers.dev
-    udp: true
-  - name: 3-vless-worker-oths.sa4566fo.workers.dev
-    server: oths.sa4566fo.workers.dev
-    port: 2096
-    type: vless
-    uuid: 5ca989b1-6460-5195-8065-f61390344021
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.WOrKeRs.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: 82d2e55f-green.sa4566fo.WOrKeRs.dev
-    udp: true
-  - name: 12-vless-worker-oths.wikimi88549712.workers.dev
-    server: oths.wikimi88549712.workers.dev
-    port: 2053
-    type: vless
-    uuid: 5ca989b1-6460-5195-8065-f61390344021
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.worKERS.Dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: 82d2e55f-green.sa4566fo.worKERS.Dev
+        Host: a7e1f08b-red.wikimi88549712.workers.dev
     udp: true
   - name: 16-vless-worker-oths.wikimi88549712.workers.dev
     server: oths.wikimi88549712.workers.dev
@@ -263,65 +188,36 @@ proxies:
       headers:
         Host: 82d2e55f-green.sa4566fo.wOrKErs.dEv
     udp: true
-  - name: 19-vless-worker-zula.ir
-    server: zula.ir
-    port: 2096
+  - name: 9-vless-worker-oths.sa4566fo.workers.dev
+    server: oths.sa4566fo.workers.dev
+    port: 8443
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.WORkerS.DEV
+    servername: 82d2e55f-green.sa4566fo.WOrKERs.dEv
     network: ws
     ws-opts:
       path: vless-ws/?ed=2048
       headers:
-        Host: 82d2e55f-green.sa4566fo.WORkerS.DEV
+        Host: 82d2e55f-green.sa4566fo.WOrKERs.dEv
     udp: true
-  - name: 2-vless-worker-oths.wikimi88549712.workers.dev
+  - name: 132-🏁RELAY-188.114.97.6-9207-worker
     server: oths.wikimi88549712.workers.dev
-    port: 2083
-    type: vless
-    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    port: 443
+    type: vmess
+    uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.wOrKErs.Dev
+    servername: 82d2e55f-green.sa4566fo.wORkers.Dev
     network: ws
     ws-opts:
-      path: vless-ws/?ed=2048
+      path: /linde06.indiavideo.sbs:443/linkws
       headers:
-        Host: 82d2e55f-green.sa4566fo.wOrKErs.Dev
-    udp: true
-  - name: 5-vless-worker-zula.ir
-    server: zula.ir
-    port: 2083
-    type: vless
-    uuid: 5ca989b1-6460-5195-8065-f61390344021
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.wOrkerS.DeV
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: 82d2e55f-green.sa4566fo.wOrkerS.DeV
-    udp: true
-  - name: 13-vless-worker-oths.wikimi88549712.workers.dev
-    server: oths.wikimi88549712.workers.dev
-    port: 2096
-    type: vless
-    uuid: 5ca989b1-6460-5195-8065-f61390344021
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.wORKErs.Dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: 82d2e55f-green.sa4566fo.wORKErs.Dev
+        Host: 82d2e55f-green.sa4566fo.wORkers.Dev
     udp: true
   - name: 9-vless-worker-oths.wikimi88549712.workers.dev
     server: oths.wikimi88549712.workers.dev
@@ -338,50 +234,20 @@ proxies:
       headers:
         Host: 82d2e55f-green.sa4566fo.WorkeRs.deV
     udp: true
-  - name: 20-vless-worker-oths.sa4566fo.workers.dev
+  - name: "13 - VLESS - Clean IP : 80"
     server: oths.sa4566fo.workers.dev
-    port: 2096
+    port: 80
     type: vless
-    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    uuid: d436d679-70b5-481a-8137-5401d3811283
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.WoRKErS.deV
+    servername: blue.sa4566fo.workers.dev
     network: ws
     ws-opts:
-      path: vless-ws/?ed=2048
+      path: /QxggBiInIFttCmoo?ed=2560
       headers:
-        Host: 82d2e55f-green.sa4566fo.WoRKErS.deV
-    udp: true
-  - name: 14-vless-worker-oths.wikimi88549712.workers.dev
-    server: oths.wikimi88549712.workers.dev
-    port: 2053
-    type: vless
-    uuid: 5ca989b1-6460-5195-8065-f61390344021
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.wOrkERS.Dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: 82d2e55f-green.sa4566fo.wOrkERS.Dev
-    udp: true
-  - name: "10 - VLESS - Domain : 2083"
-    server: a7e1f08b-red.wikimi88549712.workers.dev
-    port: 2083
-    type: vless
-    uuid: 81a2bf84-337b-4c75-8e9b-150c46fc24a3
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: A7E1F08B-reD.wIKimi88549712.wOrKErs.dEv
-    network: ws
-    ws-opts:
-      path: /CD8FtXxNExeTAFg8?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
+        Host: blue.sa4566fo.workers.dev
     udp: true
   - name: "3 - VLESS - IPv4 : 443"
     server: 188.114.97.3
@@ -398,232 +264,110 @@ proxies:
       headers:
         Host: a7e1f08b-red.wikimi88549712.workers.dev
     udp: true
-  - name: "17 - VLESS - Clean IP : 2083"
-    server: oths.sa4566fo.workers.dev
-    port: 2083
-    type: vless
-    uuid: 81a2bf84-337b-4c75-8e9b-150c46fc24a3
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: a7E1F08b-REd.wiKImi88549712.wORkeRs.dev
-    network: ws
-    ws-opts:
-      path: /iQgmkUdPcdsxdpd0?ed=2560
-      headers:
-        Host: a7e1f08b-red.wikimi88549712.workers.dev
-    udp: true
-  - name: 4-vless-worker-zula.ir
-    server: zula.ir
-    port: 2087
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 1-vless-worker-oths.sa4566fo.workers.dev
-    server: oths.sa4566fo.workers.dev
-    port: 8443
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 9-vless-worker-zula.ir
-    server: zula.ir
-    port: 2096
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 10-vless-worker-zula.ir
-    server: zula.ir
-    port: 2087
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 2-vless-worker-oths.wikimi88549712.workers.dev 2
+  - name: 12-vless-worker-oths.wikimi88549712.workers.dev
     server: oths.wikimi88549712.workers.dev
-    port: 2083
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 8-vless-worker-zula.ir
-    server: zula.ir
-    port: 2083
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 7-vless-worker-oths.wikimi88549712.workers.dev
-    server: oths.wikimi88549712.workers.dev
-    port: 8443
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 5-vless-worker-zula.ir 2
-    server: zula.ir
-    port: 8443
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 3-vless-worker-zula.ir
-    server: zula.ir
-    port: 2096
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 6-vless-worker-zula.ir
-    server: zula.ir
-    port: 8443
-    type: vless
-    uuid: 53cfd81f-148e-4a44-aaef-2b6917658205
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c552f7f4-wasubs.wikimi88549712.workers.dev
-    network: ws
-    ws-opts:
-      path: vless-ws/?ed=2048
-      headers:
-        Host: c552f7f4-wasubs.wikimi88549712.workers.dev
-    udp: true
-  - name: 1-vless-worker-zula.ir
-    server: zula.ir
-    port: 443
+    port: 2053
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.workers.dEV
+    servername: 82d2e55f-green.sa4566fo.worKERS.Dev
     network: ws
     ws-opts:
       path: vless-ws/?ed=2048
       headers:
-        Host: 82d2e55f-green.sa4566fo.workers.dEV
+        Host: 82d2e55f-green.sa4566fo.worKERS.Dev
     udp: true
-  - name: 119-🏁RELAY-104.21.31.62-9297-worker
-    server: oths.sa4566fo.workers.dev
-    port: 443
-    type: vmess
-    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.WOrkeRS.dEV
-    network: ws
-    ws-opts:
-      path: /obdii.cfd:443/linkws
-      headers:
-        Host: 82d2e55f-green.sa4566fo.WOrkeRS.dEV
-    udp: true
-  - name: 9-vless-worker-oths.sa4566fo.workers.dev
-    server: oths.sa4566fo.workers.dev
-    port: 8443
+  - name: 2-vless-worker-oths.wikimi88549712.workers.dev
+    server: oths.wikimi88549712.workers.dev
+    port: 2083
     type: vless
     uuid: 5ca989b1-6460-5195-8065-f61390344021
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.WOrKERs.dEv
+    servername: 82d2e55f-green.sa4566fo.wOrKErs.Dev
     network: ws
     ws-opts:
       path: vless-ws/?ed=2048
       headers:
-        Host: 82d2e55f-green.sa4566fo.WOrKERs.dEv
+        Host: 82d2e55f-green.sa4566fo.wOrKErs.Dev
     udp: true
-  - name: 245-🇫🇷FR-172.232.34.235-9188-worker
+  - name: "14 - VLESS - Clean IP : 80"
     server: oths.wikimi88549712.workers.dev
-    port: 443
-    type: vmess
-    uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-    alterId: 0
+    port: 80
+    type: vless
+    uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: blue.sa4566fo.workers.dev
+    network: ws
+    ws-opts:
+      path: /YGvjTnvpiC5q5xrg?ed=2560
+      headers:
+        Host: blue.sa4566fo.workers.dev
+    udp: true
+  - name: 19-vless-worker-zula.ir
+    server: zula.ir
+    port: 2096
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.woRKers.dEv
+    servername: 82d2e55f-green.sa4566fo.WORkerS.DEV
     network: ws
     ws-opts:
-      path: /hms03.dongfeng.cfd:443/linkws
+      path: vless-ws/?ed=2048
       headers:
-        Host: 82d2e55f-green.sa4566fo.woRKers.dEv
+        Host: 82d2e55f-green.sa4566fo.WORkerS.DEV
+    udp: true
+  - name: 13-vless-worker-oths.wikimi88549712.workers.dev
+    server: oths.wikimi88549712.workers.dev
+    port: 2096
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORKErs.Dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wORKErs.Dev
+    udp: true
+  - name: 5-vless-worker-zula.ir
+    server: zula.ir
+    port: 2083
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkerS.DeV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wOrkerS.DeV
+    udp: true
+  - name: 14-vless-worker-oths.wikimi88549712.workers.dev
+    server: oths.wikimi88549712.workers.dev
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkERS.Dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wOrkERS.Dev
     udp: true
   - name: 173-🏁RELAY-104.21.83.208-9190-worker
     server: oths.wikimi88549712.workers.dev
@@ -657,6 +401,128 @@ proxies:
       headers:
         Host: 82d2e55f-green.sa4566fo.WoRkeRS.deV
     udp: true
+  - name: "17 - VLESS - Clean IP : 2083"
+    server: oths.sa4566fo.workers.dev
+    port: 2083
+    type: vless
+    uuid: 81a2bf84-337b-4c75-8e9b-150c46fc24a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: a7E1F08b-REd.wiKImi88549712.wORkeRs.dev
+    network: ws
+    ws-opts:
+      path: /iQgmkUdPcdsxdpd0?ed=2560
+      headers:
+        Host: a7e1f08b-red.wikimi88549712.workers.dev
+    udp: true
+  - name: 20-vless-worker-oths.sa4566fo.workers.dev
+    server: oths.sa4566fo.workers.dev
+    port: 2096
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKErS.deV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WoRKErS.deV
+    udp: true
+  - name: 245-🇫🇷FR-172.232.34.235-9188-worker
+    server: oths.wikimi88549712.workers.dev
+    port: 443
+    type: vmess
+    uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.woRKers.dEv
+    network: ws
+    ws-opts:
+      path: /hms03.dongfeng.cfd:443/linkws
+      headers:
+        Host: 82d2e55f-green.sa4566fo.woRKers.dEv
+    udp: true
+  - name: 119-🏁RELAY-104.21.31.62-9297-worker
+    server: oths.sa4566fo.workers.dev
+    port: 443
+    type: vmess
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WOrkeRS.dEV
+    network: ws
+    ws-opts:
+      path: /obdii.cfd:443/linkws
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WOrkeRS.dEV
+    udp: true
+  - name: 1-vless-worker-zula.ir
+    server: zula.ir
+    port: 443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.workers.dEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.workers.dEV
+    udp: true
+  - name: "8 - VLESS - Domain : 80"
+    server: blue.sa4566fo.workers.dev
+    port: 80
+    type: vless
+    uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: blue.sa4566fo.workers.dev
+    network: ws
+    ws-opts:
+      path: /QhsOUhWW9T74XnOi?ed=2560
+      headers:
+        Host: blue.sa4566fo.workers.dev
+    udp: true
+  - name: "5 - VLESS - Clean IP : 443"
+    server: zula.ir
+    port: 443
+    type: vless
+    uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: BlUE.SA4566fo.wOrKers.dEv
+    network: ws
+    ws-opts:
+      path: /nLnlAz8BYHf84FD8?ed=2560
+      headers:
+        Host: blue.sa4566fo.workers.dev
+    udp: true
+  - name: "1 - VLESS - Domain : 443"
+    server: blue.sa4566fo.workers.dev
+    port: 443
+    type: vless
+    uuid: d436d679-70b5-481a-8137-5401d3811283
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: bLUE.sA4566fo.WOrkeRs.DEv
+    network: ws
+    ws-opts:
+      path: /T74XlzGbkqqm8Qu4?ed=2560
+      headers:
+        Host: blue.sa4566fo.workers.dev
+    udp: true
   - name: 448-🏁RELAY-188.114.99.205-9199-worker
     server: oths.sa4566fo.workers.dev
     port: 443
@@ -673,21 +539,501 @@ proxies:
       headers:
         Host: 82d2e55f-green.sa4566fo.woRkers.deV
     udp: true
-  - name: 132-🏁RELAY-188.114.97.6-9207-worker
-    server: oths.wikimi88549712.workers.dev
+  - name: 9-vless-worker-82d2e55f-green.sa4566fo.WoRkeRS.Dev
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 8443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRkeRS.Dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WoRkeRS.Dev
+    udp: true
+  - name: 6-vless-worker-82d2e55f-green.sa4566fo.worKErs.dEv
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2096
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.worKErs.dEv
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.worKErs.dEv
+    udp: true
+  - name: 57-🇫🇷FR-172.232.34.235-8786-worker
+    server: 82d2e55f-green.sa4566fo.workErs.deV
     port: 443
     type: vmess
-    uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 82d2e55f-green.sa4566fo.wORkers.Dev
+    servername: 82d2e55f-green.sa4566fo.WoRkERs.Dev
     network: ws
     ws-opts:
-      path: /linde06.indiavideo.sbs:443/linkws
+      path: /hms03.dongfeng.cfd:443/linkws
       headers:
-        Host: 82d2e55f-green.sa4566fo.wORkers.Dev
+        Host: 82d2e55f-green.sa4566fo.WoRkERs.Dev
+    udp: true
+  - name: 10-vless-worker-82d2e55f-green.sa4566fo.WoRKeRS.dEv
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2087
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKeRS.dEv
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WoRKeRS.dEv
+    udp: true
+  - name: 17-vless-worker-82d2e55f-green.sa4566fo.WoRKErs.DEv
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKErs.DEv
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WoRKErs.DEv
+    udp: true
+  - name: 13-vless-worker-82d2e55f-green.sa4566fo.WOrKErs.DeV
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WOrKErs.DeV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WOrKErs.DeV
+    udp: true
+  - name: 15-vless-worker-82d2e55f-green.sa4566fo.woRKeRs.deV
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 8443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.woRKeRs.deV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.woRKeRs.deV
+    udp: true
+  - name: 20-vless-worker-82d2e55f-green.sa4566fo.WorkERS.dEV
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2083
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorkERS.dEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WorkERS.dEV
+    udp: true
+  - name: 18-vless-worker-82d2e55f-green.sa4566fo.worKeRS.DEV
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 8443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.worKeRS.DEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.worKeRS.DEV
+    udp: true
+  - name: 5-vless-worker-82d2e55f-green.sa4566fo.WorKeRs.dEV
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorKeRs.dEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WorKeRs.dEV
+    udp: true
+  - name: 1-vless-worker-82d2e55f-green.sa4566fo.WoRKErs.Dev
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2087
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKErs.Dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WoRKErs.Dev
+    udp: true
+  - name: 11-vless-worker-82d2e55f-green.sa4566fo.wORkeRs.DEv
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2083
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORkeRs.DEv
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wORkeRs.DEv
+    udp: true
+  - name: 3-vless-worker-82d2e55f-green.sa4566fo.wOrkerS.DeV
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkerS.DeV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wOrkerS.DeV
+    udp: true
+  - name: 19-vless-worker-82d2e55f-green.sa4566fo.workeRS.dev
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2096
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.workeRS.dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.workeRS.dev
+    udp: true
+  - name: 7-vless-worker-82d2e55f-green.sa4566fo.WOrKerS.DEV
+    server: 82d2e55f-green.sa4566fo.workers.dev
+    port: 2087
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WOrKerS.DEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WOrKerS.DEV
+    udp: true
+  - name: 8-vless-worker-172.67.204.84
+    server: 172.67.204.84
+    port: 443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrKeRS.deV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wOrKeRS.deV
+    udp: true
+  - name: 20-vless-worker-104.18.160.63
+    server: 104.18.160.63
+    port: 2083
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrkers.DeV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wOrkers.DeV
+    udp: true
+  - name: 9-vless-worker-oths.sa4566fo.workers.dev 2
+    server: oths.sa4566fo.workers.dev
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrKERS.dEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wOrKERS.dEV
+    udp: true
+  - name: 13-vless-worker-172.67.204.84
+    server: 172.67.204.84
+    port: 2096
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WORKERs.DEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WORKERs.DEV
+    udp: true
+  - name: 6-vless-worker-172.67.21.93
+    server: 172.67.21.93
+    port: 2083
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wOrKerS.DEv
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wOrKerS.DEv
+    udp: true
+  - name: 19-vless-worker-172.67.168.173
+    server: 172.67.168.173
+    port: 443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorkERs.deV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WorkERs.deV
+    udp: true
+  - name: 5-vless-worker-104.17.6.109
+    server: 104.17.6.109
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORkeRs.DeV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wORkeRs.DeV
+    udp: true
+  - name: 11-vless-worker-104.21.87.26
+    server: 104.21.87.26
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORKErs.Dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wORKErs.Dev
+    udp: true
+  - name: 16-vless-worker-172.67.168.173
+    server: 172.67.168.173
+    port: 2083
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WOrkers.dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WOrkers.dev
+    udp: true
+  - name: 3-vless-worker-104.18.160.63
+    server: 104.18.160.63
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WoRKErS.dEv
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WoRKErS.dEv
+    udp: true
+  - name: 12-vless-worker-104.22.72.111
+    server: 104.22.72.111
+    port: 8443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORkeRS.dev
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wORkeRS.dev
+    udp: true
+  - name: 17-vless-worker-104.17.207.54
+    server: 104.17.207.54
+    port: 2087
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorKERS.deV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WorKERS.deV
+    udp: true
+  - name: 14-vless-worker-104.18.10.19
+    server: 104.18.10.19
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.workerS.DEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.workerS.DEV
+    udp: true
+  - name: 19-vless-worker-104.21.87.26
+    server: 104.21.87.26
+    port: 8443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.WorKerS.DEv
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.WorKerS.DEv
+    udp: true
+  - name: 15-vless-worker-104.17.0.73
+    server: 104.17.0.73
+    port: 2053
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORKErs.DEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wORKErs.DEV
+    udp: true
+  - name: 6-vless-worker-172.67.21.93 2
+    server: 172.67.21.93
+    port: 2087
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.woRKErs.dEV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.woRKErs.dEV
+    udp: true
+  - name: 9-vless-worker-172.67.168.173
+    server: 172.67.168.173
+    port: 2083
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.woRKeRs.DeV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.woRKeRs.DeV
+    udp: true
+  - name: 1-vless-worker-104.18.10.19
+    server: 104.18.10.19
+    port: 8443
+    type: vless
+    uuid: 5ca989b1-6460-5195-8065-f61390344021
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 82d2e55f-green.sa4566fo.wORkErs.DeV
+    network: ws
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        Host: 82d2e55f-green.sa4566fo.wORkErs.DeV
     udp: true
 proxy-groups:
   - type: 'url-test'
@@ -697,43 +1043,66 @@ proxy-groups:
     max-failed-times: 101
     lazy: true
     proxies:
-      - "14 - VLESS - Clean IP : 80"
-      - "11 - VLESS - IPv4 : 80"
-      - "8 - VLESS - Domain : 80"
-      - "1 - VLESS - Domain : 443"
-      - "5 - VLESS - Clean IP : 443"
-      - "13 - VLESS - Clean IP : 80"
       - 3-vless-worker-oths.sa4566fo.workers.dev
-      - 12-vless-worker-oths.wikimi88549712.workers.dev
-      - 16-vless-worker-oths.wikimi88549712.workers.dev
-      - 19-vless-worker-zula.ir
-      - 2-vless-worker-oths.wikimi88549712.workers.dev
-      - 5-vless-worker-zula.ir
-      - 13-vless-worker-oths.wikimi88549712.workers.dev
-      - 9-vless-worker-oths.wikimi88549712.workers.dev
-      - 20-vless-worker-oths.sa4566fo.workers.dev
-      - 14-vless-worker-oths.wikimi88549712.workers.dev
+      - "11 - VLESS - IPv4 : 80"
       - "10 - VLESS - Domain : 2083"
-      - "3 - VLESS - IPv4 : 443"
-      - "17 - VLESS - Clean IP : 2083"
-      - 4-vless-worker-zula.ir
-      - 1-vless-worker-oths.sa4566fo.workers.dev
-      - 9-vless-worker-zula.ir
-      - 10-vless-worker-zula.ir
-      - 2-vless-worker-oths.wikimi88549712.workers.dev 2
-      - 8-vless-worker-zula.ir
-      - 7-vless-worker-oths.wikimi88549712.workers.dev
-      - 5-vless-worker-zula.ir 2
-      - 3-vless-worker-zula.ir
-      - 6-vless-worker-zula.ir
-      - 1-vless-worker-zula.ir
-      - 119-🏁RELAY-104.21.31.62-9297-worker
+      - 16-vless-worker-oths.wikimi88549712.workers.dev
       - 9-vless-worker-oths.sa4566fo.workers.dev
-      - 245-🇫🇷FR-172.232.34.235-9188-worker
+      - 132-🏁RELAY-188.114.97.6-9207-worker
+      - 9-vless-worker-oths.wikimi88549712.workers.dev
+      - "13 - VLESS - Clean IP : 80"
+      - "3 - VLESS - IPv4 : 443"
+      - 12-vless-worker-oths.wikimi88549712.workers.dev
+      - 2-vless-worker-oths.wikimi88549712.workers.dev
+      - "14 - VLESS - Clean IP : 80"
+      - 19-vless-worker-zula.ir
+      - 13-vless-worker-oths.wikimi88549712.workers.dev
+      - 5-vless-worker-zula.ir
+      - 14-vless-worker-oths.wikimi88549712.workers.dev
       - 173-🏁RELAY-104.21.83.208-9190-worker
       - 376-🏁RELAY-104.21.74.239-9193-worker
+      - "17 - VLESS - Clean IP : 2083"
+      - 20-vless-worker-oths.sa4566fo.workers.dev
+      - 245-🇫🇷FR-172.232.34.235-9188-worker
+      - 119-🏁RELAY-104.21.31.62-9297-worker
+      - 1-vless-worker-zula.ir
+      - "8 - VLESS - Domain : 80"
+      - "5 - VLESS - Clean IP : 443"
+      - "1 - VLESS - Domain : 443"
       - 448-🏁RELAY-188.114.99.205-9199-worker
-      - 132-🏁RELAY-188.114.97.6-9207-worker
+      - 9-vless-worker-82d2e55f-green.sa4566fo.WoRkeRS.Dev
+      - 6-vless-worker-82d2e55f-green.sa4566fo.worKErs.dEv
+      - 57-🇫🇷FR-172.232.34.235-8786-worker
+      - 10-vless-worker-82d2e55f-green.sa4566fo.WoRKeRS.dEv
+      - 17-vless-worker-82d2e55f-green.sa4566fo.WoRKErs.DEv
+      - 13-vless-worker-82d2e55f-green.sa4566fo.WOrKErs.DeV
+      - 15-vless-worker-82d2e55f-green.sa4566fo.woRKeRs.deV
+      - 20-vless-worker-82d2e55f-green.sa4566fo.WorkERS.dEV
+      - 18-vless-worker-82d2e55f-green.sa4566fo.worKeRS.DEV
+      - 5-vless-worker-82d2e55f-green.sa4566fo.WorKeRs.dEV
+      - 1-vless-worker-82d2e55f-green.sa4566fo.WoRKErs.Dev
+      - 11-vless-worker-82d2e55f-green.sa4566fo.wORkeRs.DEv
+      - 3-vless-worker-82d2e55f-green.sa4566fo.wOrkerS.DeV
+      - 19-vless-worker-82d2e55f-green.sa4566fo.workeRS.dev
+      - 7-vless-worker-82d2e55f-green.sa4566fo.WOrKerS.DEV
+      - 8-vless-worker-172.67.204.84
+      - 20-vless-worker-104.18.160.63
+      - 9-vless-worker-oths.sa4566fo.workers.dev 2
+      - 13-vless-worker-172.67.204.84
+      - 6-vless-worker-172.67.21.93
+      - 19-vless-worker-172.67.168.173
+      - 5-vless-worker-104.17.6.109
+      - 11-vless-worker-104.21.87.26
+      - 16-vless-worker-172.67.168.173
+      - 3-vless-worker-104.18.160.63
+      - 12-vless-worker-104.22.72.111
+      - 17-vless-worker-104.17.207.54
+      - 14-vless-worker-104.18.10.19
+      - 19-vless-worker-104.21.87.26
+      - 15-vless-worker-104.17.0.73
+      - 6-vless-worker-172.67.21.93 2
+      - 9-vless-worker-172.67.168.173
+      - 1-vless-worker-104.18.10.19
 rules:
   - 'GEOIP,ir,DIRECT'
   - 'MATCH,Best Ping'
