@@ -1096,7 +1096,6 @@ proxy-groups:
       - "2 - VLESS - Domain : 443 2"
       - "10 - VLESS - Domain : 2083 2"
       - "22 - VLESS - Clean IP : 80 2"
-      - DIRECT
 rules:
   - 'GEOIP,ir,DIRECT'
   - 'MATCH,Best Ping'
