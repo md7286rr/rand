@@ -1,11 +1,1 @@
-https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/refs/heads/main/sublinks/vless.txt
-https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/sub/SSTime
-https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/refs/heads/main/sublinks/ss.txt
-https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/protocols/vless
-https://raw.githubusercontent.com/Surfboardv2ray/Subs/refs/heads/main/IPTest/output
-https://raw.githubusercontent.com/Surfboardv2ray/Subs/refs/heads/main/StarStruck/StarRenamed
-https://raw.githubusercontent.com/Surfboardv2ray/Subs/refs/heads/main/StarStruck/Star
 https://raw.githubusercontent.com/Leon406/SubCrawler/refs/heads/main/sub/share/v2
-https://github.com/Flikify/getNode/raw/refs/heads/main/v2ray.txt
-https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/refs/heads/main/sub/Mix/mix.txt
-https://raw.githubusercontent.com/mfuu/v2ray/refs/heads/master/merge/merge.txt
