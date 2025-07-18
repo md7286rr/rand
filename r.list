@@ -1,0 +1,13 @@
+# 本地/局域网地址
+# 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+
+# Router managed 路由器管理域名
+DOMAIN,nsw2u.com
+DOMAIN,pstream.org
+DOMAIN,nxbrew.ne
+DOMAIN,ouo.io
+DOMAIN,api.raindrop.io
+DOMAIN,challenges.cloudflare.com
+DOMAIN,skidrowreloaded.com
+DOMAIN,cdromance.org
+DOMAIN,steamdb.info
